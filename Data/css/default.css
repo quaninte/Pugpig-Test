@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+body.centered { text-align:center; }
+
+@media all and (orientation:landscape) {
+  body { width:944px; height:688px; }
+}
+@media all and (orientation:portrait) {
+  body { width:688px; height:944px; }
+}
+
+body .back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -9999;
+}
