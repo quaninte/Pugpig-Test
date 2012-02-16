@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F283BB0114ECD045003E50A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283BB0014ECD045003E50A5 /* UIKit.framework */; };
+		F283BB0314ECD045003E50A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283BB0214ECD045003E50A5 /* Foundation.framework */; };
+		F283BB0514ECD045003E50A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283BB0414ECD045003E50A5 /* CoreGraphics.framework */; };
+		F283BB0B14ECD045003E50A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F283BB0914ECD045003E50A5 /* InfoPlist.strings */; };
+		F283BB0D14ECD045003E50A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F283BB0C14ECD045003E50A5 /* main.m */; };
+		F283BB1114ECD045003E50A5 /* hhtmagAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F283BB1014ECD045003E50A5 /* hhtmagAppDelegate.m */; };
+		F283BB1414ECD045003E50A5 /* hhtmagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F283BB1314ECD045003E50A5 /* hhtmagViewController.m */; };
+		F283BB1614ECD045003E50A5 /* MainWindow-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F283BB1514ECD045003E50A5 /* MainWindow-iPhone.xib */; };
+		F283BB1814ECD045003E50A5 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F283BB1714ECD045003E50A5 /* MainWindow-iPad.xib */; };
+		F283BB1A14ECD045003E50A5 /* hhtmagView-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F283BB1914ECD045003E50A5 /* hhtmagView-iPhone.xib */; };
+		F283BB1C14ECD045003E50A5 /* hhtmagView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F283BB1B14ECD045003E50A5 /* hhtmagView-iPad.xib */; };
+		F283BB1E14ECD045003E50A5 /* Pugpig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F283BB1D14ECD045003E50A5 /* Pugpig.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F283BAFC14ECD045003E50A5 /* hhtmag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hhtmag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283BB0014ECD045003E50A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F283BB0214ECD045003E50A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F283BB0414ECD045003E50A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F283BB0814ECD045003E50A5 /* hhtmag-Info.plist */ = {isa = PBXFileReference; path = "hhtmag-Info.plist"; sourceTree = "<group>"; };
+		F283BB0A14ECD045003E50A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F283BB0C14ECD045003E50A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F283BB0E14ECD045003E50A5 /* hhtmag-Prefix.pch */ = {isa = PBXFileReference; path = "hhtmag-Prefix.pch"; sourceTree = "<group>"; };
+		F283BB0F14ECD045003E50A5 /* hhtmagAppDelegate.h */ = {isa = PBXFileReference; path = hhtmagAppDelegate.h; sourceTree = "<group>"; };
+		F283BB1014ECD045003E50A5 /* hhtmagAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hhtmagAppDelegate.m; sourceTree = "<group>"; };
+		F283BB1214ECD045003E50A5 /* hhtmagViewController.h */ = {isa = PBXFileReference; path = hhtmagViewController.h; sourceTree = "<group>"; };
+		F283BB1314ECD045003E50A5 /* hhtmagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hhtmagViewController.m; sourceTree = "<group>"; };
+		F283BB1514ECD045003E50A5 /* MainWindow-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPhone.xib"; sourceTree = "<group>"; };
+		F283BB1714ECD045003E50A5 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		F283BB1914ECD045003E50A5 /* hhtmagView-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "hhtmagView-iPhone.xib"; sourceTree = "<group>"; };
+		F283BB1B14ECD045003E50A5 /* hhtmagView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "hhtmagView-iPad.xib"; sourceTree = "<group>"; };
+		F283BB1D14ECD045003E50A5 /* Pugpig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pugpig.framework; path = ../Pugpig.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F283BAF914ECD045003E50A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283BB0114ECD045003E50A5 /* UIKit.framework in Frameworks */,
+				F283BB0314ECD045003E50A5 /* Foundation.framework in Frameworks */,
+				F283BB0514ECD045003E50A5 /* CoreGraphics.framework in Frameworks */,
+				F283BB1E14ECD045003E50A5 /* Pugpig.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F283BAF114ECD044003E50A5 = {
+			isa = PBXGroup;
+			children = (
+				F283BB0614ECD045003E50A5 /* hhtmag */,
+				F283BAFF14ECD045003E50A5 /* Frameworks */,
+				F283BAFD14ECD045003E50A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F283BAFD14ECD045003E50A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F283BAFC14ECD045003E50A5 /* hhtmag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F283BAFF14ECD045003E50A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F283BB0014ECD045003E50A5 /* UIKit.framework */,
+				F283BB0214ECD045003E50A5 /* Foundation.framework */,
+				F283BB0414ECD045003E50A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F283BB0614ECD045003E50A5 /* hhtmag */ = {
+			isa = PBXGroup;
+			children = (
+				F283BB0F14ECD045003E50A5 /* hhtmagAppDelegate.h */,
+				F283BB1014ECD045003E50A5 /* hhtmagAppDelegate.m */,
+				F283BB1214ECD045003E50A5 /* hhtmagViewController.h */,
+				F283BB1314ECD045003E50A5 /* hhtmagViewController.m */,
+				F283BB1514ECD045003E50A5 /* MainWindow-iPhone.xib */,
+				F283BB1714ECD045003E50A5 /* MainWindow-iPad.xib */,
+				F283BB1914ECD045003E50A5 /* hhtmagView-iPhone.xib */,
+				F283BB1B14ECD045003E50A5 /* hhtmagView-iPad.xib */,
+				F283BB1D14ECD045003E50A5 /* Pugpig.framework */,
+				F283BB0714ECD045003E50A5 /* Supporting Files */,
+			);
+			path = hhtmag;
+			sourceTree = "<group>";
+		};
+		F283BB0714ECD045003E50A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F283BB0814ECD045003E50A5 /* hhtmag-Info.plist */,
+				F283BB0914ECD045003E50A5 /* InfoPlist.strings */,
+				F283BB0C14ECD045003E50A5 /* main.m */,
+				F283BB0E14ECD045003E50A5 /* hhtmag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F283BAFB14ECD045003E50A5 /* hhtmag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283BB2114ECD045003E50A5 /* Build configuration list for PBXNativeTarget "hhtmag" */;
+			buildPhases = (
+				F283BAF814ECD045003E50A5 /* Sources */,
+				F283BAF914ECD045003E50A5 /* Frameworks */,
+				F283BAFA14ECD045003E50A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hhtmag;
+			productName = hhtmag;
+			productReference = F283BAFC14ECD045003E50A5 /* hhtmag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F283BAF314ECD044003E50A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F283BAF614ECD044003E50A5 /* Build configuration list for PBXProject "hhtmag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F283BAF114ECD044003E50A5;
+			productRefGroup = F283BAFD14ECD045003E50A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F283BAFB14ECD045003E50A5 /* hhtmag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F283BAFA14ECD045003E50A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283BB0B14ECD045003E50A5 /* InfoPlist.strings in Resources */,
+				F283BB1614ECD045003E50A5 /* MainWindow-iPhone.xib in Resources */,
+				F283BB1814ECD045003E50A5 /* MainWindow-iPad.xib in Resources */,
+				F283BB1A14ECD045003E50A5 /* hhtmagView-iPhone.xib in Resources */,
+				F283BB1C14ECD045003E50A5 /* hhtmagView-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F283BAF814ECD045003E50A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283BB0D14ECD045003E50A5 /* main.m in Sources */,
+				F283BB1114ECD045003E50A5 /* hhtmagAppDelegate.m in Sources */,
+				F283BB1414ECD045003E50A5 /* hhtmagViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F283BB0914ECD045003E50A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F283BB0A14ECD045003E50A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F283BB1F14ECD045003E50A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F283BB2014ECD045003E50A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F283BB2214ECD045003E50A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hhtmag/hhtmag-Prefix.pch";
+				INFOPLIST_FILE = "hhtmag/hhtmag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F283BB2314ECD045003E50A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hhtmag/hhtmag-Prefix.pch";
+				INFOPLIST_FILE = "hhtmag/hhtmag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F283BAF614ECD044003E50A5 /* Build configuration list for PBXProject "hhtmag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283BB1F14ECD045003E50A5 /* Debug */,
+				F283BB2014ECD045003E50A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F283BB2114ECD045003E50A5 /* Build configuration list for PBXNativeTarget "hhtmag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283BB2214ECD045003E50A5 /* Debug */,
+				F283BB2314ECD045003E50A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F283BAF314ECD044003E50A5 /* Project object */;
+}
