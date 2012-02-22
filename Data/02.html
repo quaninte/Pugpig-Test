@@ -3,13 +3,25 @@
   <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" language="javascript">
-      var docNumber = '0002';
-    </script>
     <link rel="stylesheet" href="css/default.css" />
   </head>
-  <body class="centered">
-    <div class="back"></div>
+  <body>
+    <div class="back"><img src="images/image-0002.jpg" width="768" /></div>
+    <div class="front">
+    <div class="love-image" style="position: fixed; top: 20px; right: 20px; display: none;"><img src="images/heart.png" /></div>
+    <a href="#" class="link">
+        <div style="top: 205px; left: 512px; width: 203px; height: 169px;" class="fly">
+        
+        </div>
+    </a>
+
+    </div>
+    
+<script type="text/javascript" language="javascript">
+  $('a.link').click(function() {
+    $('.love-image').toggle();
+  });
+</script>
+    
   </body>
 </html>

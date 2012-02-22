@@ -1,5 +1,5 @@
 <?php
-$fileCount = 10;
+$fileCount = 7;
 $sample = file_get_contents('sample.html');
 
 foreach (range(0, $fileCount) as $number) {
